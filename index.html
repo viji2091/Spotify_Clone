@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangeetha - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/utility.css">
+</head>
+
+<body>
+    <div class="container flex ">
+        <div class="left border">
+            <img class="close" src="./assets/close.svg" alt="">
+            <div class="home bg-gray rounded m-1 p-1">
+                <div class="logo"><img width="125px" class="invert" src="/assets/logo.svg" alt="" srcset=""></div>
+                <ul>
+                    <li class="g-13"><img class="invert " src="/assets/home.svg" alt="Home" srcset="">Home</li>
+                    <li class=" g-13"><img class="invert" src="/assets/search.svg" alt="Search" srcset="">Search</li>
+                </ul>
+            </div>
+
+
+
+
+
+
+            <div class="library bg-gray rounded m-1">
+                <div class="heading g-13">
+                    <img class="invert" src="assets/library.svg" alt="" srcset="">
+                    <h2>Your library</h2>
+                </div>
+                <div class="song-list">
+                    <ul></ul>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            
+            <div class="footer g-5">
+                <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety & Privacy
+                            Center</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                </div>
+                <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                </div>
+                <!-- <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div> -->
+            </div>
+        </div>
+        <div class="right bg-gray rounded">
+            <div class="header">
+                <div class="nav flex  items-center g-13">
+                    <img class="hamburger" src="./assets/hamburger.svg" alt="" srcset="">
+                    <div class="arrows">
+                        <img src="./assets/leftArrow.svg" alt="" srcset="">
+                        <img src="./assets/rightArrow.svg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signup-btn ">Sign up</button>
+                    <button class="login-btn rounded-2">Log in</button>
+                </div>
+            </div>
+            <div class="spotify-playlists">
+                <h1>Spotify Playlist</h1>
+                <div class="card-container flex ">
+                </div>
+            </div>
+            <div class="play-bar invert ">
+                <div class="above-bar flex justify-between items-center">
+                    <div class="song-name">
+
+                    </div>
+                    <div class="music-btn flex justify-center g-13">
+                        <img width="30" id="previous" src="./assets/previous.svg" alt="" srcset="">
+                        <img width="30" id="play" src="./assets/play.svg" alt="" srcset="">
+                        <img width="30" id="next" src="./assets/next.svg" alt="" srcset="">
+                    </div>
+                    <div class="time-vol flex g-13 items-center justify-between">
+                        <div class="song-duration">
+                        </div>
+                        <div class="volume flex items-center g-13">
+                            <img  src="./assets/volume.svg" alt="" srcset="">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="seek-bar">
+                    <div class="circle"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./javascript/script.js"></script>
+</body>
+
+</html>
