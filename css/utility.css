@@ -1,0 +1,58 @@
+.border{
+    /* border: 2px solid rgb(145, 212, 43); */
+    margin: 3px;
+
+}
+.flex{
+    display: flex;
+    
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.g-5{
+    gap: 5px   ;
+}
+.g-13{
+    gap: 13px   ;
+}
+.items-center{
+    align-items: center;
+}
+.rounded{
+    border-radius: 5px;
+}
+.rounded-2{
+    border-radius: 35px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 19px;
+}
+
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Dark background color for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #666; /* Dark color for the thumb */
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Dark color for the thumb on hover */
+}
+
